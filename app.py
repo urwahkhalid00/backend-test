@@ -8,7 +8,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "project": "Backend Hosting Test",
-        "status": "Running Successfully",
+        "status": "Yuhoo Running Successfully",
         "developer": "Urwah Khalid",
         "server_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "message": "Flask backend is live on server"
