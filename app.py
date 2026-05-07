@@ -11,7 +11,7 @@ def home():
         "status": "Yuhoo Running Successfully",
         "developer": "Urwah Khalid",
         "server_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "message": "Flask backend is live on server"
+        "message": "Yess Flask backend is live on server"
     })
 
 
